@@ -44,3 +44,16 @@
         >;
     };
 };
+
+/* Disable on-board peripherals that conflict with keyboard matrix pins */
+&led0 {
+    status = "disabled";
+};
+
+&button0 {
+    status = "disabled";
+};
+
+&uart0 {
+    status = "disabled";
+};
