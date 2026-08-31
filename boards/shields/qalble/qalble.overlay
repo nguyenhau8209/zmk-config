@@ -27,8 +27,8 @@
             , <&gpio0 12 GPIO_ACTIVE_HIGH>  /* D13: P0.12 */
             , <&gpio0 25 GPIO_ACTIVE_HIGH>  /* D0:  P0.25 (RX) */
             , <&gpio0 24 GPIO_ACTIVE_HIGH>  /* D1:  P0.24 (TX) */
-            , <&gpio1 6 GPIO_ACTIVE_HIGH>   /* 38:  P1.06 */
-            , <&gpio1 7 GPIO_ACTIVE_HIGH>   /* 39:  P1.07 */
+            , <&gpio0 16 GPIO_ACTIVE_HIGH>  /* SDA: P0.16 */
+            , <&gpio0 14 GPIO_ACTIVE_HIGH>  /* SCL: P0.14 */
             ;
     };
 
