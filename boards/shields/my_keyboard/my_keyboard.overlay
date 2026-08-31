@@ -13,24 +13,24 @@
 
         /* Khai báo 4 Hàng */
         row-gpios
-            = <&itsybitsy_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&itsybitsy_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&itsybitsy_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&itsybitsy_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* D2: P1.02 */
+            , <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* D3: P0.06 */
+            , <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /* D4: P0.29 */
+            , <&gpio0 27 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> /* D5: P0.27 */
             ;
 
         /* Khai báo 10 Cột */
         col-gpios
-            = <&itsybitsy_d 7 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 9 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 10 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 11 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 12 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 13 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 0 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 1 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 38 GPIO_ACTIVE_HIGH>
-            , <&itsybitsy_d 39 GPIO_ACTIVE_HIGH>
+            = <&gpio1 8 GPIO_ACTIVE_HIGH>   /* D7:  P1.08 */
+            , <&gpio0 7 GPIO_ACTIVE_HIGH>   /* D9:  P0.07 */
+            , <&gpio0 5 GPIO_ACTIVE_HIGH>   /* D10: P0.05 */
+            , <&gpio0 26 GPIO_ACTIVE_HIGH>  /* D11: P0.26 */
+            , <&gpio0 11 GPIO_ACTIVE_HIGH>  /* D12: P0.11 */
+            , <&gpio0 12 GPIO_ACTIVE_HIGH>  /* D13: P0.12 */
+            , <&gpio0 25 GPIO_ACTIVE_HIGH>  /* D0:  P0.25 (RX) */
+            , <&gpio0 24 GPIO_ACTIVE_HIGH>  /* D1:  P0.24 (TX) */
+            , <&gpio1 6 GPIO_ACTIVE_HIGH>   /* 38:  P1.06 */
+            , <&gpio1 7 GPIO_ACTIVE_HIGH>   /* 39:  P1.07 */
             ;
     };
 
