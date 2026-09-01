@@ -1,0 +1,8 @@
+file_format: "1"
+id: qalble
+name: QALBLE
+type: shield
+requires: [itsybitsy_nrf52840]
+features:
+  - keys
+  - encoder

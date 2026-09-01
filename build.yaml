@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: adafruit_itsybitsy_nrf52840
+  - board: itsybitsy_nrf52840
     shield: qalble
